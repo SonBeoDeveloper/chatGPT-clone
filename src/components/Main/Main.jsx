@@ -52,7 +52,7 @@ const Main = () => {
                             <p>{recentPrompt}</p>
                         </div>
                         <div className="result-data">
-                            <img src={assets.chat_gpt} alt="" />
+                            <img src={assets.chat_gpt} alt="" width={'30px'} />
                             {loading ?
                                 <div className="loader">
                                     <hr />
